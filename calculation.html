@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Household Bill Calculator</title>
+</head>
+<body>
+
+    <div class="calculator-container">
+        <h1>Household Bill Calculator</h1>
+        
+        <label for="itemPrice">Item Price (OMR):</label>
+        <input type="number" id="itemPrice" placeholder="Enter item price">
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" placeholder="Enter quantity">
+
+        <label for="totalAmount">Total Purchase Amount (OMR):</label>
+        <input type="number" id="totalAmount" placeholder="Enter total amount of the purchase">
+
+        <button onclick="calculateBill()">Calculate Bill</button>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="calculationPage.js"></script>
+</body>
+</html>
